@@ -17,9 +17,10 @@ class DataBase
     {
 
 
+        var i=0
         for(v in vals)
         {
-            val sql = "UPDATE ArduinoData SET value = \"$v\", readed = \"false\");"
+            val sql = "UPDATE ArduinoData SET value = \"$v\", readed = \"false\" WHERE dataName = \"A$i\";"
             try {
                 conn.use { conn ->
                     conn.prepareStatement(sql).use {
@@ -29,6 +30,7 @@ class DataBase
             } catch (e: SQLException) {
                 println(e.message)
             }
+            i++
         }
     }
 }
