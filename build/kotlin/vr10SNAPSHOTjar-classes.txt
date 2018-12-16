@@ -1,1 +1,0 @@
-/home/diromanov/MyProjects/Viar/build/classes/kotlin/main/DataBase.class:/home/diromanov/MyProjects/Viar/build/classes/kotlin/main/MainKt.class

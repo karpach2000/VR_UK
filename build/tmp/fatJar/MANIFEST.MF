@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
 Implementation-Title: VR
-Implementation-Version: 1.0-SNAPSHOT
-Main-Class: MainKt
+Implementation-Version: 1.0-FAST
+Main-Class: com.vr.MainKt
 
